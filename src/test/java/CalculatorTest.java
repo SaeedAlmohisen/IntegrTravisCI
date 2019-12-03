@@ -8,4 +8,9 @@ class CalculatorTest {
     void test1() {
         assertEquals(2, Calculator.add(5, 6));
     }
+
+    @Test
+    void test2(){
+        assertEquals(11, Calculator.add(5, 6));
+    }
 }
