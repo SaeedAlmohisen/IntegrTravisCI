@@ -5,6 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class CalculatorTest {
 
     @Test
-    void add() {
+    void test1() {
+        assertEquals(2, Calculator.add(5, 6));
     }
 }
